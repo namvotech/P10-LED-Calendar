@@ -1,0 +1,61 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+wb                                                                0x0260       2
+r                                                                 0x0262       2
+count_byte                                                        0x0264       2
+count_bit                                                         0x0266       2
+i                                                                 0x0268       2
+j                                                                 0x026A       2
+k                                                                 0x026C       2
+effect                                                            0x026E       2
+b_data                                                            0x0270       2
+row                                                               0x0272       2
+hour                                                              0x0274       1
+min                                                               0x0275       1
+sec                                                               0x0276       1
+week                                                              0x0277       1
+day                                                               0x0278       1
+month                                                             0x0279       1
+year                                                              0x027A       1
+ch_hour                                                           0x027B       1
+ch_min                                                            0x027C       1
+ch_sec                                                            0x027D       1
+dv_hour                                                           0x027E       1
+dv_min                                                            0x027F       1
+dv_sec                                                            0x0280       1
+ngay_amlich                                                       0x0281       1
+thang_amlich                                                      0x0282       1
+nam_amlich                                                        0x0283       1
+allnam_amlich                                                     0x0284       2
+hieuung                                                           0x0286       1
+buf_screen_0                                                      0x0287      64
+buf_screen_1                                                      0x02C7      64
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+autohand                                                          R5           1
+check_autohand                                                    R4           1
+luu_autohand                                                      R7           1
+mode1                                                             R6           1
+mode2                                                             R9           1
+setting                                                           R8           1
+dem                                                               R11          1
+dem1                                                              R10          1
+motcham                                                           R13          1
+setup_old                                                         R2.0      1bit
+up_old                                                            R2.1      1bit
+down_old                                                          R2.2      1bit
+ok_old                                                            R2.3      1bit
+autohand_old                                                      R2.4      1bit
+exit_old                                                          R2.5      1bit
+setdown_old                                                       R2.6      1bit
+load_effect                                                       R2.7      1bit
+status_buf                                                        R3.0      1bit
+b_shift                                                           R3.1      1bit
+check_effect                                                      R12          1

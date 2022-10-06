@@ -1,0 +1,43 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+count_byte                                                        0260h        2
+count_bit                                                         0262h        2
+i                                                                 0264h        2
+j                                                                 0266h        2
+k                                                                 0268h        2
+effect                                                            026Ah        2
+check_effect                                                      026Ch        2
+b_data                                                            026Eh        2
+row                                                               0270h        2
+hour                                                              0272h        1
+min                                                               0273h        1
+sec                                                               0274h        1
+weekday                                                           0275h        1
+date                                                              0276h        1
+month                                                             0277h        1
+year                                                              0278h        1
+buf_screen_0                                                      0279h       64
+buf_screen_1                                                      02B9h       64
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+setting                                                           R5           1
+dem                                                               R4           1
+mode                                                              R7           1
+dem1                                                              R6           1
+daucham                                                           R9           1
+loop                                                              R8           1
+set_old                                                           R2.0      1bit
+up_old                                                            R2.1      1bit
+down_old                                                          R2.2      1bit
+load_effect                                                       R2.3      1bit
+status_buf                                                        R2.4      1bit
+b_shift                                                           R2.5      1bit
+wb                                                                R10,R11      2
+r                                                                 R12,R13      2
